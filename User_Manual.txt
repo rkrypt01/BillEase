@@ -1,0 +1,73 @@
+1. Introduction:
+
+This user manual provides instructions for operating the billing system software. It explains the functionalities, folder structure, app usage, and troubleshooting basic errors.
+
+
+
+2. System Setup/ Info:
+
+A: Admin Folder : It contains 3 csv files
+
+  2.1: shop_details.csv: 
+        *This file stores the shop's information, including name, address, contact details, customer support contact,
+         SGST and CGST tax rates.(can be modified by Shop Owner)
+
+  2.2: items_list.csv: 
+        *Shop Owner need to input all the items sold in the shop, along with their prices in this file. The maximum number
+         of items supported is 39.
+
+  2.3: customer_sales_data.csv: 
+        *This file logs information about each customer purchase, including bill number, customer name, email,
+         purchase date, total bill amount, and payment method.
+        *This file allows shop owners to analyze their business performance.    
+
+
+B: Bills Folder: This folder stores all the generated bills for future reference.
+
+
+
+3. App Usage / Billing Process:
+
+3.1: Quantity and Discount Entry
+      *Enter the quantity against respective items.
+      *Input the discount percentage if applicable.
+      *Select payment method from the dropdown menu
+
+3.2: Total Calculation
+      *Press the "Total" button and review the displayed discount amount, total tax, and total bill amount.
+      *Modify quantities and/or discount if needed and click "Total" button again.
+
+3.3: Generate Bill
+      *After computing the total, press the "Generate Bill" button to create a formatted bill.
+      *This option only works if the total has been computed; otherwise, an error will be displayed.
+
+3.4: Save/Send Bill
+      *Press the "Save/Send Bill" button to save the bill to the computer.
+      *Additionally, the option to send the bill to the customer is available if requested.
+      *This option only works if the bill has been generated; otherwise, an error will be displayed.
+
+3.5: Clear
+      *Press the "Clear" button to reset all inputs and generated bills for the next customer.
+      *Use "Clear" if any modifications are needed for the existing customer.
+
+3.6: Docs
+      *Press the "Docs" buttton to view the user manual
+
+3.7: Exit
+      *Press the "Exit" button to close the application.
+
+
+
+4. Troubleshooting:
+
+     *Error generating bill: Ensure you have entered the customer details and clicked the Total button before
+      generating the bill.
+     *Error saving/sending bill: Ensure you generated the bill before saving or sending it.
+     *Error modifying bill: Click the Clear button to reset the bill and enter new details.
+     *Missing items or shop details: Update the items_list.csv and shop_details.csv files in the admin folder.
+
+
+
+5. Contact Information:
+
+     *For any further assistance or feedback, please contact the developer at billease3@gmail.com.

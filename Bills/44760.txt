@@ -1,0 +1,36 @@
+
+                      Cantina                       
+         PES University GJBC, Bangalore-85          
+                 PH +91 8989898989                  
+
+Bill No. : 44760          Date : 30/03/2025 00:38
+Customer Name  : john
+Customer Email : billease3@gmail.com
+
+---------------------------------------------------
+Item Name                 Qty     Rate      Amount
+---------------------------------------------------
+Egg Puff                   1      30.0        30.0
+French Fries               1      60.0        60.0
+Gobi Manchurian            1      60.0        60.0
+Alfredo Pasta              2      80.0       160.0
+Veg Curry Dosa             1      70.0        70.0
+Bubble Tea                 3      90.0       270.0
+
+---------------------------------------------------
+Total                                        650.0
+Discount @10%                                -65.0
+SGST @2.5%                                   14.62
+CGST @2.5%                                   14.62
+Total Tax                                    29.25
+
+---------------------------------------------------
+            Total Bill Amount : ₹614.25             
+                  Paid Debit Card                   
+
+---------------------------------------------------
+
+                     Thank You.                     
+                    Visit Again!                    
+
+---------------------------------------------------
